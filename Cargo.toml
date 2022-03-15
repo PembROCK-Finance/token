@@ -1,0 +1,12 @@
+[package]
+name = "token"
+version = "1.0.0"
+edition = "2021"
+publish = false
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+near-sdk = "4.0.0-pre.5"
+near-contract-standards = "4.0.0-pre.5"
