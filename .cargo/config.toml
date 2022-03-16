@@ -3,6 +3,7 @@ strip = true
 lto = true
 opt-level = "z"
 panic = "abort"
+overflow-checks = true
 
 [build]
 target = "wasm32-unknown-unknown"
